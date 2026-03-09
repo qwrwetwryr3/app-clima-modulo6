@@ -48,7 +48,7 @@ src/ ├─ assets/ │   └─ style.css ├─ components/ │   └─ Lugar
 ## ▶️ Instrucciones de ejecución
 - Clonar el repositorio:
    ```bash
-   git clone https://github.com/qwrwetwryr3/app-clima-vue.git
+   git clone https://github.com/qwrwetwryr3/app-clima-modulo6
 
 - Entrar al directorio del proyecto:
 cd app-clima-vue
@@ -60,8 +60,7 @@ npm run dev
 - Abrir en el navegador:
 http://localhost:5173/
 
-Proyecto desarrollado por Daniel Matínez Curilén como parte del Bootcamp Academy.
-
+Enlace al repositorio --> https://github.com/qwrwetwryr3/app-clima-modulo6
 
 
 
