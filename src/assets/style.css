@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Fuente y estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Contenedor principal */
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Input y select */
+input[type="text"], select {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Lista de lugares */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background: #f9f9f9;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #00796b;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #004d40;
+}
+
+/* Botón volver */
+.router-link-active {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #00796b;
+  color: #fff !important;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.router-link-active:hover {
+  background: #004d40;
+}
