@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: "https://qwrwetwryr3.github.io/app-clima-modulo6/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
